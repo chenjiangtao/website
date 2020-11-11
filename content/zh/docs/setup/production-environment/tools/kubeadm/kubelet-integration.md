@@ -159,7 +159,7 @@ such as systemd.
   但是值 `--cgroup-driver` 必须与 CRI 运行时使用的 cgroup 驱动程序匹配，以确保 kubelet 的健康运行状况。
 
 - 根据您集群使用的 CRI 运行时，您可能需要为 kubelet 指定不同的标志。
-  例如，当使用 Docker 时，你要需要指定标志如 `--network-plugin=cni`，但是如果您使用的是外部运行时，
+  例如，当使用 Docker 时，你需要指定标志如 `--network-plugin=cni`，但是如果您使用的是外部运行时，
   则需要指定 `--container-runtime=remote` 并使用 `--container-runtime-path-endpoint=<path>` 指定 CRI端点。
 
 您可以在服务管理器（例如系统）中通过对单个的 kubelet 配置来指定这些标志。
