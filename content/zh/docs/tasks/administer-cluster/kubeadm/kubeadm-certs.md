@@ -129,9 +129,9 @@ Additionally, kubeadm informs the user if the certificate is externally managed;
 
 <!--
 `kubeadm` cannot manage certificates signed by an external CA.
- -->`
+ -->
 {{< warning >}}
-kubeadm` 不能管理由外部 CA 签名的证书
+`kubeadm` 不能管理由外部 CA 签名的证书
 {{< /warning >}}
 
 <!-- 
